@@ -1,0 +1,6 @@
+{
+  "name": "Dzxz",
+  "tagline": "",
+  "body": "### ...\r\n其实吧，我是没看懂要干啥的。看到有人做的好酷我就试试==\r\n本来是觉得可以做成个惊喜的，结果我被吓到了==\r\n这是啥==\r\n如果你能看到，用matlab试试吧。。\r\n[x y z]=meshgrid(-1.5:0.02:1.5);\r\nv=(x.^2+9/4*y.^2+z.^2-1).^3-x.^2.*z.^3-9/80*y.^2.*z.^3;\r\np=isosurface(x,y,z,v,0);\r\nfigure(1);clf;\r\npatch(p,'edgecolor','none','facecolor','w');\r\nh=contourslice(x,y,z,v,-1.5:0.3:1.5,-1.5:0.3:1.5,-1.5:0.3:1.5,[0 0]);\r\nset(h,'linewidth',2,'edgecolor','k');\r\nview(3);axis eq",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
